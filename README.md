@@ -1,6 +1,8 @@
 # Modeling-the-Possible-Influence-of-Dark-Energy-Density-on-Galaxy-Cluster-Temperature-Evolution-
 Simulation and analysis of dark energy effects on galaxy cluster thermodynamics.
+
 ⚙️ How to Use
+
 1. Install Dependencies
 
 Make sure you have Python ≥ 3.9 installed.
@@ -20,9 +22,11 @@ Each scenario will automatically generate a plot window.
 You can save figures by adding plt.savefig("filename.png", dpi=300) inside any scenario function.
 
 🌌 Simulation Scenarios
+
 Scenario 1 — Λ Sweep
 
 Goal: Observe how virial temperature changes with increasing dark energy density (Λ).
+
 Description:
 
 Keeps cluster mass and radius fixed.
@@ -30,16 +34,19 @@ Keeps cluster mass and radius fixed.
 Varies Λ from 0 → 2×10⁻⁵² m⁻².
 
 Demonstrates that Λ introduces a small “cooling” correction.
+
 Output: Temperature vs Λ plot (Figure 1).
 
 Scenario 2 — Mass–Radius Grid
 
 Goal: Quantify the percentage decrease in temperature across different cluster sizes.
+
 Description:
 
 Creates a 2D grid of mass (10¹⁴–10¹⁵ M☉) and radius (1–4 Mpc).
 
 Calculates fractional ΔT between Λ=0 and Λ=Λₒᵦₛ.
+
 Output: Heatmap showing which clusters are most sensitive to dark energy (Figure 2).
 
 Scenario 3 — Mass Scaling
