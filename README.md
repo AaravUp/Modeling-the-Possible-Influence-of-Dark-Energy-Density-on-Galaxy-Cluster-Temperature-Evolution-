@@ -102,3 +102,5 @@ Computes modeled virial temperature using T_vir() function.
 Plots observed vs modeled temperatures and correlation.
 
 Output: Scatter plot comparing data and simulation (Figure 6).
+
+
